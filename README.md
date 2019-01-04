@@ -1,0 +1,2 @@
+# AppliedStochasticAnalysisHW
+AppliedStochasticAnalysisHW_IsingModel
