@@ -1,0 +1,838 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.9.11)  4 JAN 2019 13:16
+entering extended mode
+**HW_Metropolis.tex
+
+(D:\zzx\School\PKU\大四上\应用随机模拟\HW_Ising\report\HW_Metropolis.t
+ex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+("D:\Program Files\CTEX\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("D:\Program Files\CTEX\MiKTeX\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen105
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen106
+\subfiglabelskip=\skip46
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("D:\Program Files\CTEX\MiKTeX\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+("D:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen107
+))
+("D:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen108
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks17
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen116
+\ttl@minus=\dimen117
+\ttl@toksa=\toks21
+\titlewidth=\dimen118
+\titlewidthlast=\dimen119
+\titlewidthfirst=\dimen120
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks22
+\float@box=\box29
+\@float@everytoks=\toks23
+\@floatcapt=\box30
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks24
+\c@algorithm=\count105
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count106
+\c@ALG@rem=\count107
+\c@ALG@nested=\count108
+\ALG@tlm=\skip54
+\ALG@thistlm=\skip55
+\c@ALG@Lnr=\count109
+\c@ALG@blocknr=\count110
+\c@ALG@storecount=\count111
+\c@ALG@tmpcounter=\count112
+\ALG@tmplength=\skip56
+) ("D:\Program Files\CTEX\MiKTeX\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen121
+\epsfysize=\dimen122
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("D:\Program Files\CTEX\MiKTeX\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen123
+)
+("D:\Program Files\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(D:\zzx\School\PKU\大四上\应用随机模拟\HW_Ising\report\HW_Metropolis.a
+ux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+ ("D:\Program Files\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count113
+\scratchdimen=\dimen124
+\scratchbox=\box31
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen125
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks26
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+ ("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+
+("D:\Program Files\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+{D:/Program Files/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}
+}] [2] [3]
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+[4] [5] [6] <pics/original_16_a.png, id=33, 1003.75pt x 501.875pt>
+File: pics/original_16_a.png Graphic file (type png)
+
+<use pics/original_16_a.png>
+Package pdftex.def Info: pics/original_16_a.png used on input line 247.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ <pics/kmc_16_a.png, id=34, 1003.75pt x 501.875pt>
+File: pics/kmc_16_a.png Graphic file (type png)
+
+<use pics/kmc_16_a.png>
+Package pdftex.def Info: pics/kmc_16_a.png used on input line 247.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ <pics/sw_16_a.png, id=35, 1003.75pt x 501.875pt>
+File: pics/sw_16_a.png Graphic file (type png)
+
+<use pics/sw_16_a.png>
+Package pdftex.def Info: pics/sw_16_a.png used on input line 251.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ <pics/wolff_16_a.png, id=36, 1003.75pt x 501.875pt>
+File: pics/wolff_16_a.png Graphic file (type png)
+
+<use pics/wolff_16_a.png>
+Package pdftex.def Info: pics/wolff_16_a.png used on input line 251.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/original_16_b1.png, id=37, 1927.2pt x 994.71625pt>
+File: pics/original_16_b1.png Graphic file (type png)
+
+<use pics/original_16_b1.png>
+Package pdftex.def Info: pics/original_16_b1.png used on input line 258.
+(pdftex.def)             Requested size: 276.43086pt x 142.6744pt.
+
+<pics/kmc_16_b1.png, id=38, 1927.2pt x 994.71625pt>
+File: pics/kmc_16_b1.png Graphic file (type png)
+ <use pics/kmc_16_b1.png>
+Package pdftex.def Info: pics/kmc_16_b1.png used on input line 258.
+(pdftex.def)             Requested size: 276.43086pt x 142.6744pt.
+
+<pics/original_16_b2.png, id=39, 1003.75pt x 501.875pt>
+File: pics/original_16_b2.png Graphic file (type png)
+
+<use pics/original_16_b2.png>
+Package pdftex.def Info: pics/original_16_b2.png used on input line 265.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_b2.png, id=40, 1003.75pt x 501.875pt>
+File: pics/kmc_16_b2.png Graphic file (type png)
+ <use pics/kmc_16_b2.png>
+Package pdftex.def Info: pics/kmc_16_b2.png used on input line 265.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+[7 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origina
+l_16_a.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising
+/report/pics/kmc_16_a.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机
+模拟/HW_Ising/report/pics/sw_16_a.png (PNG copy)> <D:/zzx/School/PKU/大四�
+�/应用随机模拟/HW_Ising/report/pics/wolff_16_a.png (PNG copy)> <D:/zzx/Sc
+hool/PKU/大四上/应用随机模拟/HW_Ising/report/pics/original_16_b1.png (
+PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics
+/kmc_16_b1.png (PNG copy)>]
+<pics/original_16_c1.png, id=45, 1003.75pt x 501.875pt>
+File: pics/original_16_c1.png Graphic file (type png)
+
+<use pics/original_16_c1.png>
+Package pdftex.def Info: pics/original_16_c1.png used on input line 272.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_c1.png, id=46, 1003.75pt x 501.875pt>
+File: pics/kmc_16_c1.png Graphic file (type png)
+ <use pics/kmc_16_c1.png>
+Package pdftex.def Info: pics/kmc_16_c1.png used on input line 272.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_16_c1.png, id=47, 1003.75pt x 501.875pt>
+File: pics/sw_16_c1.png Graphic file (type png)
+ <use pics/sw_16_c1.png>
+Package pdftex.def Info: pics/sw_16_c1.png used on input line 276.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_16_c1.png, id=48, 1003.75pt x 501.875pt>
+File: pics/wolff_16_c1.png Graphic file (type png)
+
+<use pics/wolff_16_c1.png>
+Package pdftex.def Info: pics/wolff_16_c1.png used on input line 276.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/original_16_c2.png, id=49, 1003.75pt x 501.875pt>
+File: pics/original_16_c2.png Graphic file (type png)
+
+<use pics/original_16_c2.png>
+Package pdftex.def Info: pics/original_16_c2.png used on input line 283.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_c2.png, id=50, 1003.75pt x 501.875pt>
+File: pics/kmc_16_c2.png Graphic file (type png)
+ <use pics/kmc_16_c2.png>
+Package pdftex.def Info: pics/kmc_16_c2.png used on input line 283.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_16_c2.png, id=51, 1003.75pt x 501.875pt>
+File: pics/sw_16_c2.png Graphic file (type png)
+ <use pics/sw_16_c2.png>
+Package pdftex.def Info: pics/sw_16_c2.png used on input line 287.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_16_c2.png, id=52, 1003.75pt x 501.875pt>
+File: pics/wolff_16_c2.png Graphic file (type png)
+
+<use pics/wolff_16_c2.png>
+Package pdftex.def Info: pics/wolff_16_c2.png used on input line 287.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [8 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origin
+al_16_b2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Isi
+ng/report/pics/kmc_16_b2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随
+机模拟/HW_Ising/report/pics/original_16_c1.png (PNG copy)> <D:/zzx/School/PK
+U/大四上/应用随机模拟/HW_Ising/report/pics/kmc_16_c1.png (PNG copy)> <
+D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/sw_16_c1.pn
+g (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/p
+ics/wolff_16_c1.png (PNG copy)>]
+<pics/original_16_d11.png, id=56, 1003.75pt x 501.875pt>
+File: pics/original_16_d11.png Graphic file (type png)
+
+<use pics/original_16_d11.png>
+Package pdftex.def Info: pics/original_16_d11.png used on input line 294.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_d11.png, id=57, 1003.75pt x 501.875pt>
+File: pics/kmc_16_d11.png Graphic file (type png)
+ <use pics/kmc_16_d11.png>
+Package pdftex.def Info: pics/kmc_16_d11.png used on input line 294.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/original_16_d12.png, id=58, 1003.75pt x 501.875pt>
+File: pics/original_16_d12.png Graphic file (type png)
+
+<use pics/original_16_d12.png>
+Package pdftex.def Info: pics/original_16_d12.png used on input line 301.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_d12.png, id=59, 1003.75pt x 501.875pt>
+File: pics/kmc_16_d12.png Graphic file (type png)
+ <use pics/kmc_16_d12.png>
+Package pdftex.def Info: pics/kmc_16_d12.png used on input line 301.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+[9 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origina
+l_16_c2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Isin
+g/report/pics/kmc_16_c2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随�
+��模拟/HW_Ising/report/pics/sw_16_c2.png (PNG copy)> <D:/zzx/School/PKU/大�
+�上/应用随机模拟/HW_Ising/report/pics/wolff_16_c2.png (PNG copy)> <D:/zz
+x/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/original_16_d11.
+png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report
+/pics/kmc_16_d11.png (PNG copy)>]
+<pics/original_16_d21.png, id=63, 1003.75pt x 501.875pt>
+File: pics/original_16_d21.png Graphic file (type png)
+
+<use pics/original_16_d21.png>
+Package pdftex.def Info: pics/original_16_d21.png used on input line 308.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_d21.png, id=64, 1003.75pt x 501.875pt>
+File: pics/kmc_16_d21.png Graphic file (type png)
+ <use pics/kmc_16_d21.png>
+Package pdftex.def Info: pics/kmc_16_d21.png used on input line 308.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_16_d21.png, id=65, 1003.75pt x 501.875pt>
+File: pics/sw_16_d21.png Graphic file (type png)
+ <use pics/sw_16_d21.png>
+Package pdftex.def Info: pics/sw_16_d21.png used on input line 312.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_16_d21.png, id=66, 1003.75pt x 501.875pt>
+File: pics/wolff_16_d21.png Graphic file (type png)
+
+<use pics/wolff_16_d21.png>
+Package pdftex.def Info: pics/wolff_16_d21.png used on input line 312.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/original_16_d22.png, id=67, 1003.75pt x 501.875pt>
+File: pics/original_16_d22.png Graphic file (type png)
+
+<use pics/original_16_d22.png>
+Package pdftex.def Info: pics/original_16_d22.png used on input line 319.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_d22.png, id=68, 1003.75pt x 501.875pt>
+File: pics/kmc_16_d22.png Graphic file (type png)
+ <use pics/kmc_16_d22.png>
+Package pdftex.def Info: pics/kmc_16_d22.png used on input line 319.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_16_d22.png, id=69, 1003.75pt x 501.875pt>
+File: pics/sw_16_d22.png Graphic file (type png)
+ <use pics/sw_16_d22.png>
+Package pdftex.def Info: pics/sw_16_d22.png used on input line 323.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_16_d22.png, id=70, 1003.75pt x 501.875pt>
+File: pics/wolff_16_d22.png Graphic file (type png)
+
+<use pics/wolff_16_d22.png>
+Package pdftex.def Info: pics/wolff_16_d22.png used on input line 323.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [10 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_16_d12.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_16_d12.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/original_16_d21.png (PNG copy)> <D:/zzx/Schoo
+l/PKU/大四上/应用随机模拟/HW_Ising/report/pics/kmc_16_d21.png (PNG cop
+y)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/sw_16_
+d21.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/re
+port/pics/wolff_16_d21.png (PNG copy)>]
+<pics/original_16_d31.png, id=74, 1003.75pt x 501.875pt>
+File: pics/original_16_d31.png Graphic file (type png)
+
+<use pics/original_16_d31.png>
+Package pdftex.def Info: pics/original_16_d31.png used on input line 330.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_d31.png, id=75, 1003.75pt x 501.875pt>
+File: pics/kmc_16_d31.png Graphic file (type png)
+ <use pics/kmc_16_d31.png>
+Package pdftex.def Info: pics/kmc_16_d31.png used on input line 330.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_16_d31.png, id=76, 1003.75pt x 501.875pt>
+File: pics/sw_16_d31.png Graphic file (type png)
+ <use pics/sw_16_d31.png>
+Package pdftex.def Info: pics/sw_16_d31.png used on input line 334.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_16_d31.png, id=77, 1003.75pt x 501.875pt>
+File: pics/wolff_16_d31.png Graphic file (type png)
+
+<use pics/wolff_16_d31.png>
+Package pdftex.def Info: pics/wolff_16_d31.png used on input line 334.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [11 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_16_d22.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_16_d22.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/sw_16_d22.png (PNG copy)> <D:/zzx/School/PKU/
+大四上/应用随机模拟/HW_Ising/report/pics/wolff_16_d22.png (PNG copy)>]
+
+<pics/original_16_d32.png, id=81, 1003.75pt x 501.875pt>
+File: pics/original_16_d32.png Graphic file (type png)
+
+<use pics/original_16_d32.png>
+Package pdftex.def Info: pics/original_16_d32.png used on input line 341.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_16_d32.png, id=82, 1003.75pt x 501.875pt>
+File: pics/kmc_16_d32.png Graphic file (type png)
+ <use pics/kmc_16_d32.png>
+Package pdftex.def Info: pics/kmc_16_d32.png used on input line 341.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_16_d32.png, id=83, 1003.75pt x 501.875pt>
+File: pics/sw_16_d32.png Graphic file (type png)
+ <use pics/sw_16_d32.png>
+Package pdftex.def Info: pics/sw_16_d32.png used on input line 345.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_16_d32.png, id=84, 1003.75pt x 501.875pt>
+File: pics/wolff_16_d32.png Graphic file (type png)
+
+<use pics/wolff_16_d32.png>
+Package pdftex.def Info: pics/wolff_16_d32.png used on input line 345.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [12 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_16_d31.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_16_d31.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/sw_16_d31.png (PNG copy)> <D:/zzx/School/PKU/
+大四上/应用随机模拟/HW_Ising/report/pics/wolff_16_d31.png (PNG copy)>]
+
+<pics/original_32_a.png, id=88, 1003.75pt x 501.875pt>
+File: pics/original_32_a.png Graphic file (type png)
+
+<use pics/original_32_a.png>
+Package pdftex.def Info: pics/original_32_a.png used on input line 353.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ <pics/kmc_32_a.png, id=89, 1003.75pt x 501.875pt>
+File: pics/kmc_32_a.png Graphic file (type png)
+
+<use pics/kmc_32_a.png>
+Package pdftex.def Info: pics/kmc_32_a.png used on input line 353.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ <pics/sw_32_a.png, id=90, 1003.75pt x 501.875pt>
+File: pics/sw_32_a.png Graphic file (type png)
+
+<use pics/sw_32_a.png>
+Package pdftex.def Info: pics/sw_32_a.png used on input line 357.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ <pics/wolff_32_a.png, id=91, 1003.75pt x 501.875pt>
+File: pics/wolff_32_a.png Graphic file (type png)
+
+<use pics/wolff_32_a.png>
+Package pdftex.def Info: pics/wolff_32_a.png used on input line 357.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [13 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_16_d32.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_16_d32.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/sw_16_d32.png (PNG copy)> <D:/zzx/School/PKU/
+大四上/应用随机模拟/HW_Ising/report/pics/wolff_16_d32.png (PNG copy)>]
+
+<pics/original_32_b1.png, id=96, 1927.2pt x 994.71625pt>
+File: pics/original_32_b1.png Graphic file (type png)
+
+<use pics/original_32_b1.png>
+Package pdftex.def Info: pics/original_32_b1.png used on input line 364.
+(pdftex.def)             Requested size: 276.43086pt x 142.6744pt.
+
+<pics/kmc_32_b1.png, id=97, 1927.2pt x 994.71625pt>
+File: pics/kmc_32_b1.png Graphic file (type png)
+ <use pics/kmc_32_b1.png>
+Package pdftex.def Info: pics/kmc_32_b1.png used on input line 364.
+(pdftex.def)             Requested size: 276.43086pt x 142.6744pt.
+
+<pics/original_32_b2.png, id=98, 1003.75pt x 501.875pt>
+File: pics/original_32_b2.png Graphic file (type png)
+
+<use pics/original_32_b2.png>
+Package pdftex.def Info: pics/original_32_b2.png used on input line 371.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_b2.png, id=99, 1003.75pt x 501.875pt>
+File: pics/kmc_32_b2.png Graphic file (type png)
+ <use pics/kmc_32_b2.png>
+Package pdftex.def Info: pics/kmc_32_b2.png used on input line 371.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+[14 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origin
+al_32_a.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Isin
+g/report/pics/kmc_32_a.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随�
+�模拟/HW_Ising/report/pics/sw_32_a.png (PNG copy)> <D:/zzx/School/PKU/大四�
+��/应用随机模拟/HW_Ising/report/pics/wolff_32_a.png (PNG copy)> <D:/zzx/S
+chool/PKU/大四上/应用随机模拟/HW_Ising/report/pics/original_32_b1.png 
+(PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pic
+s/kmc_32_b1.png (PNG copy)>]
+<pics/original_32_c1.png, id=103, 1003.75pt x 501.875pt>
+File: pics/original_32_c1.png Graphic file (type png)
+
+<use pics/original_32_c1.png>
+Package pdftex.def Info: pics/original_32_c1.png used on input line 378.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_c1.png, id=104, 1003.75pt x 501.875pt>
+File: pics/kmc_32_c1.png Graphic file (type png)
+ <use pics/kmc_32_c1.png>
+Package pdftex.def Info: pics/kmc_32_c1.png used on input line 378.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_32_c1.png, id=105, 1003.75pt x 501.875pt>
+File: pics/sw_32_c1.png Graphic file (type png)
+ <use pics/sw_32_c1.png>
+Package pdftex.def Info: pics/sw_32_c1.png used on input line 382.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_32_c1.png, id=106, 1003.75pt x 501.875pt>
+File: pics/wolff_32_c1.png Graphic file (type png)
+
+<use pics/wolff_32_c1.png>
+Package pdftex.def Info: pics/wolff_32_c1.png used on input line 382.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/original_32_c2.png, id=107, 1003.75pt x 501.875pt>
+File: pics/original_32_c2.png Graphic file (type png)
+
+<use pics/original_32_c2.png>
+Package pdftex.def Info: pics/original_32_c2.png used on input line 389.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_c2.png, id=108, 1003.75pt x 501.875pt>
+File: pics/kmc_32_c2.png Graphic file (type png)
+ <use pics/kmc_32_c2.png>
+Package pdftex.def Info: pics/kmc_32_c2.png used on input line 389.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_32_c2.png, id=109, 1003.75pt x 501.875pt>
+File: pics/sw_32_c2.png Graphic file (type png)
+ <use pics/sw_32_c2.png>
+Package pdftex.def Info: pics/sw_32_c2.png used on input line 393.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_32_c2.png, id=110, 1003.75pt x 501.875pt>
+File: pics/wolff_32_c2.png Graphic file (type png)
+
+<use pics/wolff_32_c2.png>
+Package pdftex.def Info: pics/wolff_32_c2.png used on input line 393.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [15 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_32_b2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Is
+ing/report/pics/kmc_32_b2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用�
+�机模拟/HW_Ising/report/pics/original_32_c1.png (PNG copy)> <D:/zzx/School/P
+KU/大四上/应用随机模拟/HW_Ising/report/pics/kmc_32_c1.png (PNG copy)> 
+<D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/sw_32_c1.p
+ng (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/
+pics/wolff_32_c1.png (PNG copy)>]
+<pics/original_32_d11.png, id=114, 1003.75pt x 501.875pt>
+File: pics/original_32_d11.png Graphic file (type png)
+
+<use pics/original_32_d11.png>
+Package pdftex.def Info: pics/original_32_d11.png used on input line 400.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_d11.png, id=115, 1003.75pt x 501.875pt>
+File: pics/kmc_32_d11.png Graphic file (type png)
+ <use pics/kmc_32_d11.png>
+Package pdftex.def Info: pics/kmc_32_d11.png used on input line 400.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/original_32_d12.png, id=116, 1003.75pt x 501.875pt>
+File: pics/original_32_d12.png Graphic file (type png)
+
+<use pics/original_32_d12.png>
+Package pdftex.def Info: pics/original_32_d12.png used on input line 407.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_d12.png, id=117, 1003.75pt x 501.875pt>
+File: pics/kmc_32_d12.png Graphic file (type png)
+ <use pics/kmc_32_d12.png>
+Package pdftex.def Info: pics/kmc_32_d12.png used on input line 407.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+[16 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origin
+al_32_c2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Isi
+ng/report/pics/kmc_32_c2.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随
+机模拟/HW_Ising/report/pics/sw_32_c2.png (PNG copy)> <D:/zzx/School/PKU/大�
+��上/应用随机模拟/HW_Ising/report/pics/wolff_32_c2.png (PNG copy)> <D:/z
+zx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/original_32_d11
+.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/repor
+t/pics/kmc_32_d11.png (PNG copy)>]
+<pics/original_32_d21.png, id=121, 1003.75pt x 501.875pt>
+File: pics/original_32_d21.png Graphic file (type png)
+
+<use pics/original_32_d21.png>
+Package pdftex.def Info: pics/original_32_d21.png used on input line 414.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_d21.png, id=122, 1003.75pt x 501.875pt>
+File: pics/kmc_32_d21.png Graphic file (type png)
+ <use pics/kmc_32_d21.png>
+Package pdftex.def Info: pics/kmc_32_d21.png used on input line 414.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_32_d21.png, id=123, 1003.75pt x 501.875pt>
+File: pics/sw_32_d21.png Graphic file (type png)
+ <use pics/sw_32_d21.png>
+Package pdftex.def Info: pics/sw_32_d21.png used on input line 418.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_32_d21.png, id=124, 1003.75pt x 501.875pt>
+File: pics/wolff_32_d21.png Graphic file (type png)
+
+<use pics/wolff_32_d21.png>
+Package pdftex.def Info: pics/wolff_32_d21.png used on input line 418.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/original_32_d22.png, id=125, 1003.75pt x 501.875pt>
+File: pics/original_32_d22.png Graphic file (type png)
+
+<use pics/original_32_d22.png>
+Package pdftex.def Info: pics/original_32_d22.png used on input line 425.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_d22.png, id=126, 1003.75pt x 501.875pt>
+File: pics/kmc_32_d22.png Graphic file (type png)
+ <use pics/kmc_32_d22.png>
+Package pdftex.def Info: pics/kmc_32_d22.png used on input line 425.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_32_d22.png, id=127, 1003.75pt x 501.875pt>
+File: pics/sw_32_d22.png Graphic file (type png)
+ <use pics/sw_32_d22.png>
+Package pdftex.def Info: pics/sw_32_d22.png used on input line 429.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_32_d22.png, id=128, 1003.75pt x 501.875pt>
+File: pics/wolff_32_d22.png Graphic file (type png)
+
+<use pics/wolff_32_d22.png>
+Package pdftex.def Info: pics/wolff_32_d22.png used on input line 429.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [17 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_32_d12.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_32_d12.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/original_32_d21.png (PNG copy)> <D:/zzx/Schoo
+l/PKU/大四上/应用随机模拟/HW_Ising/report/pics/kmc_32_d21.png (PNG cop
+y)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/sw_32_
+d21.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/re
+port/pics/wolff_32_d21.png (PNG copy)>]
+<pics/original_32_d31.png, id=132, 1003.75pt x 501.875pt>
+File: pics/original_32_d31.png Graphic file (type png)
+
+<use pics/original_32_d31.png>
+Package pdftex.def Info: pics/original_32_d31.png used on input line 436.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_d31.png, id=133, 1003.75pt x 501.875pt>
+File: pics/kmc_32_d31.png Graphic file (type png)
+ <use pics/kmc_32_d31.png>
+Package pdftex.def Info: pics/kmc_32_d31.png used on input line 436.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_32_d31.png, id=134, 1003.75pt x 501.875pt>
+File: pics/sw_32_d31.png Graphic file (type png)
+ <use pics/sw_32_d31.png>
+Package pdftex.def Info: pics/sw_32_d31.png used on input line 440.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_32_d31.png, id=135, 1003.75pt x 501.875pt>
+File: pics/wolff_32_d31.png Graphic file (type png)
+
+<use pics/wolff_32_d31.png>
+Package pdftex.def Info: pics/wolff_32_d31.png used on input line 440.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [18 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_32_d22.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_32_d22.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/sw_32_d22.png (PNG copy)> <D:/zzx/School/PKU/
+大四上/应用随机模拟/HW_Ising/report/pics/wolff_32_d22.png (PNG copy)>]
+
+<pics/original_32_d32.png, id=139, 1003.75pt x 501.875pt>
+File: pics/original_32_d32.png Graphic file (type png)
+
+<use pics/original_32_d32.png>
+Package pdftex.def Info: pics/original_32_d32.png used on input line 447.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/kmc_32_d32.png, id=140, 1003.75pt x 501.875pt>
+File: pics/kmc_32_d32.png Graphic file (type png)
+ <use pics/kmc_32_d32.png>
+Package pdftex.def Info: pics/kmc_32_d32.png used on input line 447.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/sw_32_d32.png, id=141, 1003.75pt x 501.875pt>
+File: pics/sw_32_d32.png Graphic file (type png)
+ <use pics/sw_32_d32.png>
+Package pdftex.def Info: pics/sw_32_d32.png used on input line 451.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+
+<pics/wolff_32_d32.png, id=142, 1003.75pt x 501.875pt>
+File: pics/wolff_32_d32.png Graphic file (type png)
+
+<use pics/wolff_32_d32.png>
+Package pdftex.def Info: pics/wolff_32_d32.png used on input line 451.
+(pdftex.def)             Requested size: 276.43086pt x 138.21898pt.
+ [19 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_32_d31.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_32_d31.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/sw_32_d31.png (PNG copy)> <D:/zzx/School/PKU/
+大四上/应用随机模拟/HW_Ising/report/pics/wolff_32_d31.png (PNG copy)>]
+ [20 <D:/zzx/School/PKU/大四上/应用随机模拟/HW_Ising/report/pics/origi
+nal_32_d32.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用随机模拟/HW_I
+sing/report/pics/kmc_32_d32.png (PNG copy)> <D:/zzx/School/PKU/大四上/应用
+随机模拟/HW_Ising/report/pics/sw_32_d32.png (PNG copy)> <D:/zzx/School/PKU/
+大四上/应用随机模拟/HW_Ising/report/pics/wolff_32_d32.png (PNG copy)>]
+
+(D:\zzx\School\PKU\大四上\应用随机模拟\HW_Ising\report\HW_Metropolis.a
+ux) ) 
+Here is how much of TeX's memory you used:
+ 3547 strings out of 495354
+ 49368 string characters out of 3183075
+ 98631 words of memory out of 3000000
+ 6603 multiletter control sequences out of 15000+200000
+ 11810 words of font info for 46 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,11n,28p,527b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D
+:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Progr
+am Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program File
+s/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files/CTEX/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Program Files/CTEX/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr5.pfb><D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+D:/Program Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Prog
+ram Files/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on HW_Metropolis.pdf (20 pages, 3351422 bytes).
+PDF statistics:
+ 191 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+
